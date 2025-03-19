@@ -1,0 +1,26 @@
+\git_challenge\git_challenge> git init
+Initialized empty Git repository in C:/Users/kimihiko2/Desktop/git_challenge/git_challenge/.git/
+P  C:\Users\kimihiko2\Desktop\git_challenge\git_challenge>
+PS C:\Users\kimihiko2\Desktop\git_challenge\git_challenge> git add hellow_world.txt
+fatal: pathspec 'hellow_world.txt' did not match any files
+PS C:\Users\kimihiko2\Desktop\git_challenge\git_challenge> git add hellow_world.txt
+PS C:\Users\kimihiko2\Desktop\git_challenge\git_challenge>                            > git commit -m "Hellow Worldを追加"     
+[main (root-commit) a548b22] Hellow Worldを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hellow_world.txt
+PS C:\Users\kimihiko2\Desktop\git_challenge\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\kimihiko2\Desktop\git_challenge\git_challenge>
+ git add hellow_world.txt         "
+PS C:\Users\kimihiko2\Desktop\git_challenge\git_challenge> git add hellow_world.txt
+PS C:\Users\kimihiko2\Desktop\git_challenge\git_challenge> git commit -m "日本語訳を追加"
+[main 134d408] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\kimihiko2\Desktop\git_challenge\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\kimihiko2\Desktop\git_challenge\git_challenge> git log --oneline
+134d408 (HEAD -> main) 日本語訳を追加
+a548b22 Hellow Worldを追加
+PS C:\Users\kimihiko2\Desktop\git_challenge\git_challenge> 
