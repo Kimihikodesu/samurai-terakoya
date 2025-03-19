@@ -1,6 +1,5 @@
 PS C:\Users\kimihiko2\Lesson> cd "C:\Users\kimihiko2\Desktop\git_challenge"
 PS C:\Users\kimihiko2\Desktop\git_challenge> git add hello_world.txt
-fatal: not a git repository (or any of the parent directories): .git
 PS C:\Users\kimihiko2\Desktop\git_challenge> git init
 Initialized empty Git repository in C:/Users/kimihiko2/Desktop/git_challenge/.git/
 PS C:\Users\kimihiko2\Desktop\git_challenge> git add hello_world.txt
