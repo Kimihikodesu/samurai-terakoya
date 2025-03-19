@@ -1,0 +1,16 @@
+PS C:\Users\kimihiko2\Desktop\git_challenge> cd "C:\Users\kimihiko2\Desktop\git_challenge"
+PS C:\Users\kimihiko2\Desktop\git_challenge> git init
+Reinitialized existing Git repository in C:/Users/kimihiko2/Desktop/git_challenge/.git/
+PS C:\Users\kimihiko2\Desktop\git_challenge> echo "Hello,world" > hello_world.txt 
+PS C:\Users\kimihiko2\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\kimihiko2\Desktop\git_challenge> git commit -m "Hello,worldを追加"
+[main 8d63b5e] Hello,worldを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\kimihiko2\Desktop\git_challenge> echo "こんにちは、世界！" > hello_world.txt
+PS C:\Users\kimihiko2\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\kimihiko2\Desktop\git_challenge> git commit -m "日本語訳を追記"
+[main a222f8a] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\kimihiko2\Desktop\git_challenge> git log --oneline
+a222f8a (HEAD -> main) 日本語訳を追記
+8d63b5e Hello,worldを追加
