@@ -1,0 +1,26 @@
+PS C:\Users\kimihiko2\Desktop\最新kadai_005> cd "C:\Users\kimihiko2\Desktop\git_challenge"
+PS C:\Users\kimihiko2\Desktop\git_challenge> mkdir hello_world
+
+
+    ディレクトリ: C:\Users\kimihiko2\Desktop\git_challenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/03/19     18:08                hello_world
+
+
+PS C:\Users\kimihiko2\Desktop\git_challenge> git init
+Initialized empty Git repository in C:/Users/kimihiko2/Desktop/git_challenge/.git/
+PS C:\Users\kimihiko2\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\kimihiko2\Desktop\git_challenge> git commit -m "Hello_worldを追加"
+[main (root-commit) 3abb88b] Hello_worldを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\kimihiko2\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\kimihiko2\Desktop\git_challenge> git commit -m "日本語訳を追加"
+[main 2dd278e] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\kimihiko2\Desktop\git_challenge> git log --oneline
+2dd278e (HEAD -> main) 日本語訳を追加
+3abb88b Hello_worldを追加
